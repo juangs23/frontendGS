@@ -1,0 +1,14 @@
+/* Estilos para el contenedor del calendario */
+.calendar-container {
+    width: 80%; /* Ancho deseado */
+    margin: 0 auto; /* Centrar el calendario */
+    background-color: white; /* Fondo blanco */
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  /* Estilos para el calendario en sí */
+  #calendar {
+    max-width: 100%; /* Ancho máximo permitido */
+    background-color: white; /* Fondo blanco */
+  }
+  
