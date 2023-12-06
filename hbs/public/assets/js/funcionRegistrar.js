@@ -49,7 +49,7 @@ const listarUsuario = async() => {
                 `<td>`+usuario.edad+`</td>` +
                 `<td>`+usuario.direccion+`</td>` +
                 `<td>`+usuario.precioDolar+`</td>` + 
-                `<td>`+listaDolar[0].valor+`</td>` +
+                // `<td>`+listaDolar[0].valor+`</td>` +
 
                 `<td><button onclick="redireccionarEditar('${objetoUsuario}')">Editar</button></td>`+
                 `</tr>` 

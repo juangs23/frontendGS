@@ -1,4 +1,5 @@
-const url = 'http://localhost:8787/registarUsuario'
+const url = 'https://apidespliegue.onrender.com/registarUsuario'
+// const url = 'http://localhost:8787/registarUsuario'
 const urlDolar = 'https://www.datos.gov.co/resource/mcec-87by.json'
 
 
@@ -46,7 +47,7 @@ const listarUsuario = async() => {
                 `<td>`+usuario.edad+`</td>` +
                 `<td>`+usuario.direccion+`</td>` +
                 `<td>`+usuario.precioDolar+`</td>` + 
-                `<td>`+listaDolar[0].valor+`</td>` +
+                // `<td>`+listaDolar[0].valor+`</td>` +
 
                 `<td><button onclick="redireccionarEditar('${objetoUsuario}')">Editar</button></td>`+
                 `</tr>` 
