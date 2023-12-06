@@ -143,6 +143,15 @@
                                           <p class="formularioRegistro__input-error">Ingrese una direccion valida.</p>
                                     </div>
 
+                                    <div class="col-lg-6 formularioRegistro__grupo" id="grupo__precioDolar">
+                                       <label for="direccion" class="formularioRegistro__label">Precio Dolar</label>
+                                          <div class="formularioRegistro__grupo-input" >
+                                             <input type="" class="form-control" name="precioDolar" id="precioDolar" readonly>                             
+                                             <i class="formularioRegistro__validacion-estado fas fa-times-circle "></i>
+                                          </div>
+                                          <p class="formularioRegistro__input-error">Ingrese un precio valido.</p>
+                                    </div>
+
                                     {{!-- Campo contrasenia --}}
                                     <div class="col-lg-6 formularioRegistro__grupo" id="grupo__password">
                                        <label for="password" class="formularioRegistro__label">Contraseña *</label>
@@ -215,6 +224,12 @@
          </div>
       </section>
       </div>
+
+      <script>
+         window.addEventListener('DOMContentLoaded', (event) => {
+            listarUsuario(); // Llama a la función para obtener y mostrar el valor del dólar
+         });
+</script>
 
          <!-- Validaciones form registro -->
     
